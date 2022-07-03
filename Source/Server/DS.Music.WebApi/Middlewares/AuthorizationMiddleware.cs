@@ -33,6 +33,6 @@ public static class AuthorizationMiddlewareExtension
 {
     public static IApplicationBuilder UseAuthorizationMiddleware(this IApplicationBuilder builder)
     {
-        return builder.UseMiddleware<ExceptionHandlerMiddleware>();
+        return builder.UseMiddleware<AuthorizationMiddleware>();
     }
 }

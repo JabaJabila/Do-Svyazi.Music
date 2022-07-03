@@ -23,7 +23,6 @@
     <ItemGroup>
       <ProjectReference Include="..\..\Domain\DS.Domain\DS.Domain.csproj" />
       <ProjectReference Include="..\..\Infrastructure\DS.DataAccess\DS.DataAccess.csproj" />
-      <ProjectReference Include="..\..\Modules\DS.DataAccess\DS.DataAccess.csproj" />
       <ProjectReference Include="..\..\Server\DS.Music.WebApi\DS.Music.WebApi.csproj" />
     </ItemGroup>
 
